@@ -1,0 +1,74 @@
+/* Скидання стилів за замовчуванням */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Тіло сайту */
+  body {
+    font-family: 'Book Antiqua Italic', book antiqua;
+    background-image: url('vesela hata.jpg'); 
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Навігаційна панель */
+  .navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Контент */
+  .content {
+    padding: 100px;
+  }
+  
+  /* Розділи */
+  .section {
+    background: rgb(241, 10, 10);
+    margin: 50px 0;
+    padding: 50px;
+    border-radius: 8px;
+  }
+  
+  /* Елемент меню */
+  .menu-item {
+    margin-bottom: 20px;
+  }
+  
+  .menu-item h3 {
+    margin-bottom: 10px;
+  }
+  
+  .menu-item img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  /* Футер */
+  .footer {
+    background-color: #cdd91e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
